@@ -52,6 +52,11 @@ python run_glue_distillation.py \
 ```
 to train the student model.
 
+# Acknowledgments
+The implementation of image classification is based on https://github.com/HobbitLong/RepDistiller
+
+The implementation of text classification is based on https://github.com/bzantium/pytorch-PKD-for-BERT-compression
+
 # Citation
 ```
 @article{pesf-kd,
