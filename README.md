@@ -1,7 +1,7 @@
 # PESF-KD
 PyTorch code for our TMM 2023 paper "Parameter-Efficient and Student-Friendly Knowledge Distillation".
 # Usage
-## Folder cv contains the Computer Vision project(CIFAR-100 & ImageNet).
+## Folder cv contains the Computer Vision project (CIFAR-100 & ImageNet).
 
 Use scripts(cv/scripts) or command     
 ``` shell
@@ -9,7 +9,7 @@ Use scripts(cv/scripts) or command
 ```
 to start the training.
     
-## Folder nlp contains the Natural Language Processing project(GLUE).
+## Folder nlp contains the Natural Language Processing project (GLUE).
 
 Use command  
 ``` shell
