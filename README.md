@@ -11,7 +11,7 @@ to start the training.
     
 ## Folder nlp contains the Natural Language Processing project (GLUE).
 
-Use command  
+Use the following command to fine-tune the teacher model.
 ``` shell
 python run_glue.py
 --model_type bert \
@@ -28,8 +28,7 @@ python run_glue.py
 --num_train_epochs 4.0 \
 --output_dir /tmp/QQP/
 ``` 
-to fintune the teacher model and use command 
-
+Use the following command to train the student model.
 ``` shell
 python run_glue_distillation.py \
 --model_type bert \
@@ -50,11 +49,9 @@ python run_glue_distillation.py \
 --num_train_epochs 4 \
 --output_dir ./tmp/QQP
 ```
-to train the student model.
 
 # Acknowledgments
 The implementation of image classification is based on https://github.com/HobbitLong/RepDistiller
-
 The implementation of text classification is based on https://github.com/bzantium/pytorch-PKD-for-BERT-compression
 
 # Citation
